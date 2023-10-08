@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./portfolio-index/assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./portfolio-index/assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./portfolio-index/assets/images/my-avatar.png" alt="Vitor de Quadra" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Vitor de Quadra">Vitor de Quadra</h1>
+
+          <p class="title">Desenvolvedor</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Meus contatos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:vitor.de.quadra01@gmail.com" class="contact-link">vitor.de.quadra01@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telefone</p>
+
+              <a href="tel:5546000000000" class="contact-link">+55 (46) 00000-0000</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localização</p>
+
+              <address>Pato Branco, Paraná, Brasil</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/VitorDeQuadra" target="_blank" class="social-link">
+              <ion-icon class = "socials-icons" name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/vitor_quadra__/" target="_blank" class="social-link">
+              <ion-icon class = "socials-icons" name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Sobre</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resumo</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projetos</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contato</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="sobre">
+
+        <header>
+          <h2 class="h2 article-title">Sobre mim</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Combinando habilidades criativas e técnicas, sou um programador versátil atuando tanto no cenário front-end
+            quanto no desenvolvimento mobile. Com uma paixão pelo design e pela usabilidade, trago à vida interfaces
+            cativantes e funcionais. Minha jornada como programador front-end permite que eu crie experiências de
+            usuário intuitivas por meio de HTML, CSS e TypeScript, garantindo a estética e a funcionalidade perfeitas.
+            Além disso, minha habilidade como programador mobile me permite construir aplicativos dinâmicos e responsivos,
+            levando as ideias além das telas. Minha busca incessante por aprendizado e aprimoramento reflete-se na minha
+            capacidade de transformar conceitos em código que não apenas funcione, mas também inspire. Sou apaixonado
+            por transformar desafios em oportunidades e pela constante evolução no mundo do desenvolvimento.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">O que estou fazendo</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./portfolio-index/assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desenvolvimento web</h4>
+
+                <p class="service-item-text">
+                  Desenvolvimento de sites de alta qualidade a nível profissional.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./portfolio-index/assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Aplicativos mobile</h4>
+
+                <p class="service-item-text">
+                  Desenvolvimento profissional de aplicativos para iOS e Android.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Feedbacks</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./portfolio-index/assets/images/avatar-2.png" alt="Ana Silva" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ana Silva</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Quando decidimos aprimorar nossa presença online, estávamos em busca de um programador front-end e
+                    mobile que pudesse traduzir nossa visão em realidade. Você, com sua expertise excepcional, não apenas
+                    trouxe nossas ideias à vida, mas também as elevou a um nível que nunca imaginamos ser possível.
+                    Seu comprometimento em criar uma experiência de usuário envolvente e intuitiva é verdadeiramente admirável.
+                    Nosso site agora é um reflexo fiel da dedicação que você colocou em cada linha de código. Muito obrigado
+                    por tornar nossa jornada colaborativa incrivelmente bem-sucedida.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./portfolio-index/assets/images/avatar-1.png" alt="Rodrigo Ferreira" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rodrigo Ferreira</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Sua habilidade como programador front-end e mobile é verdadeiramente notável. O que mais nos impressionou
+                    foi sua capacidade de capturar a essência de nossa marca e incorporá-la em cada aspecto do nosso site.
+                    Sua atenção aos detalhes e dedicação à usabilidade resultaram em uma experiência online que realmente
+                    ressoa com nossos clientes. Estamos sinceramente gratos por sua contribuição em elevar nossa presença
+                    digital para um novo patamar.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./portfolio-index/assets/images/avatar-3.png" alt="Mariana Lima" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mariana Lima</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    estamos impressionados com o impacto que sua expertise como programadora front-end e mobile trouxe 
+                    para nosso aplicativo. Sua capacidade de entender nossas necessidades, traduzi-las em recursos tangíveis 
+                    e, ao mesmo tempo, proporcionar uma estética atraente é incrível. Cada vez que nossos usuários elogiam a 
+                    usabilidade e o design, sabemos que isso é graças à sua dedicação incansável. Não poderíamos estar mais 
+                    gratos por ter você como parte essencial deste projeto.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./portfolio-index/assets/images/avatar-4.png" alt="Pedro Hernandez" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Pedro Hernandez</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    queremos expressar nosso apreço profundo por seu talento e habilidades como programador front-end e mobile. 
+                    Seu comprometimento com a excelência e a busca pela perfeição foram evidentes em cada etapa do projeto. O 
+                    aplicativo que você construiu não é apenas funcional, mas também reflete sua paixão por criar algo verdadeiramente 
+                    excepcional. Estamos incrivelmente satisfeitos com o resultado final e agradecemos por sua dedicação incansável 
+                    em tornar nossa visão realidade.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="" alt="" width="80" data-modal-img>
+              </figure>
+
+              <img src="./portfolio-index/assets/images/icon-quote.svg" alt="quote icon">
+              </div>
+
+                <div class="modal-content">
+
+                  <h4 class="h3 modal-title" data-modal-title></h4>
+
+                  <div data-modal-text>
+                    <p>
+                      
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+          </section>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resumo">
+
+        <header>
+          <h2 class="h2 article-title">Resumo</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educação</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Escola Municipal José Fraron</h4>
+
+              <span>2011 — 2016</span>
+
+              <p class="timeline-text">
+                Adquiri fundamentos educacionais sólidos que serviram como base para minha jornada acadêmica, 
+                promovendo habilidades essenciais e desenvolvimento pessoal.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Escola Estadual Carmela Bortot</h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                Continuei a desenvolver meu conhecimento com um currículo abrangente e oportunidades de aprendizado enriquecedoras, 
+                preparando-me para os desafios educacionais futuros de maneira diversificada e abrangente.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Colégio Estadual de Pato Branco - CEPB</h4>
+
+              <span>2021 — Atuando</span>
+
+              <p class="timeline-text">
+                Mergulhei em um ambiente de aprendizado avançado, explorando disciplinas específicas e desenvolvendo habilidades cruciais 
+                para a próxima fase da minha educação e crescimento pessoal.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiência</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Programador Estagiário</h4>
+
+              <span>2022 — Atuando</span>
+
+              <p class="timeline-text">
+                Como estagiário em programação, estou imerso em um ambiente dinâmico, aplicando conhecimentos 
+                teóricos em projetos do mundo real. Essa jornada está me proporcionando valiosas oportunidades 
+                de aprendizado contínuo, colaboração com profissionais experientes e aprimoramento das minhas 
+                habilidades técnicas enquanto contribuo ativamente para a equipe.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Minhas habilidades</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programação web</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">programação Mobile</h5>
+                <data value="70">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projetos">
+
+        <header>
+          <h2 class="h2 article-title">Projetos</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Todos</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Landing pages</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>One pages</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Selecione a categoria</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Todos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Landing page</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>One pages</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="landing pages">
+              <a href="./starbuck/index-starbucks.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./starbuck/img/Display.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Starbucks</h3>
+
+                <p class="project-category">Landing page</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="one pages">
+              <a href="./portfolio-exemplo/index-portfolio-exemplo.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./portfolio-exemplo/assets/images/Display.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfólio João</h3>
+
+                <p class="project-category">One page</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contato">
+
+        <header>
+          <h2 class="h2 article-title">Contato</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14736.763414432622!2d-52.69259732169896!3d-26.21914378224583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1692667157617!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulário de contato</h3>
+
+          <form action="#"  method="post" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="Nome completo" class="form-input" placeholder="Nome completo" required data-form-input>
+
+              <input type="Email" name="email" class="form-input" placeholder="Email para contato" required data-form-input>
+            </div>
+
+            <textarea name="Mensagem" class="form-input" placeholder="Sua mensagem" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar Mensagem</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./portfolio-index/assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
