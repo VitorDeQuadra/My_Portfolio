@@ -108,7 +108,10 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { 
+  text-decoration: none;
+  color: var(--white-1);
+ }
 
 li { list-style: none; }
 
@@ -245,7 +248,7 @@ article.active {
 
 .has-scrollbar::-webkit-scrollbar {
   width: 5px; /* for vertical scrollbar */
-  height: 5px; /* for horizontal scrollbar */
+  height: 7px; /* for horizontal scrollbar */
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
